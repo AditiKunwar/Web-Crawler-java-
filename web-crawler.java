@@ -7,7 +7,6 @@ import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.util.*;
-
 /**
  *
  * @author diwas
@@ -36,7 +35,7 @@ public class jsoup_02 {
 
                             System.out.println("Link: " + final_link);
                             System.out.println("Paragraph: "+para);
-                            System.out.println("");
+                            // System.out.println("");
                             System.out.println("");
                             innerList.add(keyword);
                             innerList.add(Integer.toString(j));
